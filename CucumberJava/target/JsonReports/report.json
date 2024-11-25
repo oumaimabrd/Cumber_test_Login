@@ -1,0 +1,70 @@
+[
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2024-10-17T22:41:20.577Z",
+				"line": 4,
+				"name": "Check login is successful with valid credentials",
+				"description": "",
+				"id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 981500,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user is on login page",
+						"match": {
+							"location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "user enters username and password",
+						"match": {
+							"location": "StepDefinitions.LoginSteps.user_enters_username_and_password()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 999300,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "clicks on login button",
+						"match": {
+							"location": "StepDefinitions.LoginSteps.clicks_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "user is redirected to the home page",
+						"match": {
+							"location": "StepDefinitions.LoginSteps.user_is_redirected_to_the_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Feature to test login functionality",
+		"description": "",
+		"id": "feature-to-test-login-functionality",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Features/login.feature",
+		"tags": []
+	}
+]

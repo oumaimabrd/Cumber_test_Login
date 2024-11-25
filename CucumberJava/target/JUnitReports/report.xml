@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.27" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test google search functionality" name="Validate google search is working" time="9.433">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on google search page...........................................passed
+When user enters a text in search box.......................................passed
+And hits enter..............................................................passed
+Then user is redirected to serach results...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test login functionality" name="Check login is successful with valid credentials - #1.1" time="6.707">
+<system-out><![CDATA[
+Given The browser is open...................................................passed
+And user is on Netflix page.................................................passed
+When user in on Netflix login page..........................................passed
+And user enters obouraada4@gmail.com and Aa0611282752.......................passed
+And clicks on login button..................................................passed
+Then user is redirected to the home page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
